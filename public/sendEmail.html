@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="sendEmail.css">
+    <meta charset="UTF-8">
+    <title>Send Email</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Send Email to Multiple Recipients</h1>
+        <form action="/send-email" method="post" class="email-form">
+            <input type="text" name="recipients" placeholder="Recipient's emails (comma-separated)" required><br>
+            <input type="text" name="subject" placeholder="Subject" required><br>
+            <textarea name="message" placeholder="Write your message here" required></textarea><br>
+            <button type="submit">Send Email</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Event Management Server</title>
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<h1 style="color: #0f8bbc;">Event Manager</h1>
+<div class = "container">
+<form action="http://localhost:1000/form" method="post">
+
+  <label for="eventName">Event Name:</label><br>
+  <input type="text" id="eventName" name="eventName"  placeholder="Please enter 2 digit number after name to make it unique"><br>
+
+  <label for="description">Event Description:</label><br>
+  <textarea id="description" name="description"></textarea><br>
+
+  <label for="eventDate">Event Date:</label><br>
+  <input type="date" id="eventDate" name="eventDate"><br>
+
+  <label for="eventTime">Event Time:</label><br>
+  <input type="text" class="without_ampm" id="eventTime" name="eventTime"><br>
+
+  <label for="location">Event Location:</label><br>
+  <input type="text" id="location" name="location"><br>
+
+  <input type="submit" value="Submit">
+</div>
+</form>
+
+
+</body>
+</html>

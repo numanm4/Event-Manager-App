@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="updateEvent.css">
+    <meta charset="UTF-8">
+    <title>Event Update</title>
+</head>
+<body class="body">
+    <h1 class="h1">Event Update Form</h1>
+    <form class="form" action="http://localhost:1000/update-event" method="post">
+
+        <label class="label" for="eventName">Event Name:</label>
+        <input class="input" type="text" id="eventName" name="eventName"><br>
+
+        <label class="label" for="description">Description:</label>
+        <textarea class="input" id="description" name="description"></textarea><br>
+
+        <label class="label" for="eventDate">Event Date:</label>
+        <input class="input" type="date" id="eventDate" name="eventDate"><br>
+
+        <label class="label" for="eventTime">Event Time:</label>
+        <input class="input without_ampm" type="text" id="eventTime" name="eventTime"><br>
+
+        <label class="label" for="location">Location:</label>
+        <input class="input" type="text" id="location" name="location"><br>
+
+        <input class="submit-btn" type="submit" value="Submit">
+    </form>
+</body>
+</html>
+
